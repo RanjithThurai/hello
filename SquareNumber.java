@@ -13,7 +13,7 @@ public class SquareNumber {
         double n = sc.nextDouble();
         double sq = n * n;
         DecimalFormat df = new DecimalFormat("#.##########");
-        System.out.println("Square: " + df.format(sq));
+        System.out.println("square: " + df.format(sq));
         sc.close();
     } 
 }
