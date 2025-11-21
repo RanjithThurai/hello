@@ -8,7 +8,7 @@ public class SquareNumber {
         if (!sc.hasNextDouble()) {
             System.out.println("Invalid input.");
             sc.close();
-            return;        }
+            return;       }
         double n = sc.nextDouble();
         double sq = n * n;
         DecimalFormat df = new DecimalFormat("#.##########");
