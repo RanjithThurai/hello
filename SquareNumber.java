@@ -15,5 +15,5 @@ public class SquareNumber {
         DecimalFormat df = new DecimalFormat("#.##########");
         System.out.println("Square: " + df.format(sq));
         sc.close();
-    }
+    } 
 }
